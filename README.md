@@ -286,6 +286,10 @@ The Gold Layer data is visualized through an interactive Databricks SQL Dashboar
 - Identified 16,000+ potentially fraudulent transactions
 - Classified fraud risk into Low, Medium, and High categories
 - Analyzed customer spending behavior across multiple transaction channels
+- 
+## Dashboard Preview
+
+![Finance Dashboard](dashboard.png)
 
 ### Technologies Used
 
