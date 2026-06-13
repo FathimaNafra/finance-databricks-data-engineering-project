@@ -242,9 +242,6 @@ This project demonstrates:
 - Databricks Workflow Development
 - Git Version Control Integration
 
-## Dashboard Preview
-
-The Gold Layer data is visualized through an interactive Databricks SQL Dashboard that provides insights into transaction performance, customer activity, and fraud risk analysis.
 
 ### Key Metrics
 
@@ -289,8 +286,8 @@ The Gold Layer data is visualized through an interactive Databricks SQL Dashboar
 - 
 ## Dashboard Preview
 
-![Finance Dashboard](dashboard.png,dashboard1.png)
-
+![Finance Dashboard](dashboard.png)
+![Finance Dashboard](dashboard1.png)
 
 
 ### Technologies Used
