@@ -289,7 +289,9 @@ The Gold Layer data is visualized through an interactive Databricks SQL Dashboar
 - 
 ## Dashboard Preview
 
-![Finance Dashboard](dashboard.png)
+![Finance Dashboard](dashboard.png,dashboard1.png)
+
+
 
 ### Technologies Used
 
