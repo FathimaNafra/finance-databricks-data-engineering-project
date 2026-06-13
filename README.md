@@ -7,7 +7,15 @@ This project demonstrates an end-to-end Data Engineering pipeline built on Datab
 The project showcases key Data Engineering concepts including data ingestion, data transformation, data quality management, and analytical data modeling.
 
 ---
+## Project Highlights
 
+- Built an end-to-end Data Engineering pipeline using Databricks
+- Implemented Bronze, Silver, and Gold Medallion Architecture
+- Generated and processed 100K+ financial transactions
+- Built interactive SQL dashboards for business reporting
+- Performed fraud detection and risk analysis
+- Leveraged Delta Lake for scalable data storage
+- Integrated GitHub version control with Databricks
 ## Architecture
 
 ```text
@@ -234,18 +242,59 @@ This project demonstrates:
 - Databricks Workflow Development
 - Git Version Control Integration
 
----
+## Dashboard Preview
 
-## Future Enhancements
+The Gold Layer data is visualized through an interactive Databricks SQL Dashboard that provides insights into transaction performance, customer activity, and fraud risk analysis.
 
-- Streaming Data Ingestion
-- Workflow Automation using Databricks Jobs
-- Data Quality Monitoring
-- CI/CD Integration
-- Power BI Dashboard Integration
-- Real-Time Analytics Pipeline
+### Key Metrics
 
----
+| Metric | Value |
+|----------|----------|
+| Total Customers | 5,000 |
+| Total Transactions | 100,000 |
+| Total Transaction Amount | $251.02M |
+| Average Transaction Amount | $2,510.25 |
+| Fraud Transactions | 16.66K |
+
+### Dashboard Features
+
+#### Revenue Analytics
+- Monthly Revenue Trend
+- Country Revenue Analysis
+- Revenue Performance Monitoring
+
+#### Customer Analytics
+- Top 10 Customers by Spending
+- Customer Transaction Analysis
+- Spending Pattern Identification
+
+#### Transaction Analytics
+- Transaction Type Distribution
+- Payment Method Analysis
+- Transaction Volume Monitoring
+
+#### Fraud Analytics
+- Fraud Risk Distribution
+- Fraud by Transaction Type
+- Risk Category Classification
+- Fraud Detection Insights
+
+### Dashboard Insights
+
+- Processed over 100,000 financial transactions
+- Generated revenue analytics from $251M+ transaction volume
+- Identified 16,000+ potentially fraudulent transactions
+- Classified fraud risk into Low, Medium, and High categories
+- Analyzed customer spending behavior across multiple transaction channels
+
+### Technologies Used
+
+- Databricks SQL Dashboard
+- Apache Spark
+- Delta Lake
+- PySpark
+- SQL Analytics
+- Databricks Lakehouse Platform
 
 ## Author
 
